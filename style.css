@@ -64,3 +64,15 @@ nav ul li a
 {
     font-size: 22px;
 }
+#banner button
+{
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+#banner .btn
+{
+    margin-top: 10px;
+}
