@@ -225,3 +225,54 @@ nav ul li a
     gap: 10px;
     
 }
+
+#blog_news header
+{
+    text-align: center;
+    margin: 40px 0;
+}
+
+#blog_news header h1
+{
+    font-size: 50px;
+}
+
+#blog_news .new_box_contianer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+#blog_news .new_box
+{
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+#blog_news .new_box img
+{
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+#blog_news .new_box .text h1
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+#blog_news .new_box .text p
+{
+    font-size: 18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+#blog_news .new_box .text 
+{
+    padding: 15px;
+}
