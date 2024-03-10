@@ -74,5 +74,91 @@ nav ul li a
 
 #banner .btn
 {
+    margin-top: 20px;
+}
+
+#services
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode:overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services .skill_boxes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services button
+{
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 35px;
+}
+#services .service_details h1
+{
+    font-size: 40px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+#services .service_details p
+{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+}
+#services .service_details .profile_container
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#services .service_details .profile_container .profile
+{
+    display: flex;
+    border-right: 1px solid red;
+    width: 30%;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#services .service_details .profile_container img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
     margin-top: 10px;
+}
+#services .service_details
+{
+    width: 50%;
+}
+
+#services .skill_boxes .skill img
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#services .skill_boxes .skill
+{
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 8px gray;
 }
