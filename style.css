@@ -115,11 +115,18 @@ nav ul li a
     margin: 15px 0px;
     font-weight: bold;
 }
+#services .service_details li
+{
+    font-size: 18px;
+}
 #services .service_details p
 {
     width: 75%;
     font-size: 20px;
-    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    
     
 }
 #services .service_details .profile_container
@@ -179,7 +186,7 @@ nav ul li a
     border-radius: 15px;
     margin: auto;
     color: white;
-    padding: 30px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,9 +225,8 @@ nav ul li a
     align-items: center;
     justify-content: center;
     border-right: 2px solid gray;
-
+    padding: 20px 0;
     padding-left: 30px;
-    
     width: 32%;
     gap: 10px;
     
@@ -229,7 +235,8 @@ nav ul li a
 #blog_news header
 {
     text-align: center;
-    margin: 40px 0;
+    width: 50%;
+    margin: 40px auto;
 }
 
 #blog_news header h1
@@ -276,3 +283,57 @@ nav ul li a
 {
     padding: 15px;
 }
+
+footer
+{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.8em;
+   
+    
+}
+footer .footer_contianer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+    border-bottom: 1.5px solid gray ;
+    
+}
+
+
+footer .footer_box i
+{
+    margin-right: 5px;
+}
+footer .footer_box h3
+{
+    margin-bottom: 30px;
+}
+footer .social_link
+{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+footer .social_link i
+{
+    margin-right: 20px;
+}
+
+footer .copy
+{
+    text-align: center;
+    padding: 15px;
+}
+
